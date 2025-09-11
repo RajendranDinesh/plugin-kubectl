@@ -101,6 +101,36 @@ $ fisher install blackjid/plugin-kubectl
 | kdi          | `kubectl describe ingress`                           |
 | kdeli        | `kubectl delete ingress`                             |
 
+### HTTPRoute management
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgh          | `kubectl get httproute`                              |
+| kgha         | `kubectl get httproute --all-namespaces`             |
+| keh          | `kubectl edit httproute`                             |
+| kdh          | `kubectl describe httproute`                         |
+| kdelh        | `kubectl delete httproute`                           |
+
+### GRPCRoute management
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgg          | `kubectl get grpcroute`                              |
+| kgga         | `kubectl get grpcroute --all-namespaces`             |
+| keg          | `kubectl edit grpcroute`                             |
+| kdg          | `kubectl describe grpcroute`                         |
+| kdelg        | `kubectl delete grpcroute`                           |
+
+### ReferenceGrant management
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgr          | `kubectl get referencegrant`                              |
+| kgra         | `kubectl get referencegrant --all-namespaces`             |
+| ker          | `kubectl edit referencegrant`                             |
+| kdr          | `kubectl describe referencegrant`                         |
+| kdelr        | `kubectl delete referencegrant`                           |
+
 ### Namespace management
 
 | Abbreviation | Command                                              |
