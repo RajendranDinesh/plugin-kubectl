@@ -259,6 +259,29 @@ $ fisher install blackjid/plugin-kubectl
 | kdds         | `kubectl describe ds`                                |
 | kdelds       | `kubectl delete ds`                                  |
 
+### CronJob management
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgcj         | `kubectl get cronjob`                                |
+| kgcja        | `kubectl get cronjob --all-namespaces`               |
+| kgcjw        | `kubectl get cronjob --watch`                        |
+| kecj         | `kubectl edit cronjob`                               |
+| kdcj         | `kubectl describe cronjob`                           |
+| kdelcj       | `kubectl delete cronjob`                             |
+
+### Job management
+
+| Abbreviation | Command                                              |
+| ------------ | ---------------------------------------------------- |
+| kgj          | `kubectl get job`                                    |
+| kgja         | `kubectl get job --all-namespaces`                   |
+| kgjw         | `kubectl get job --watch`                            |
+| kcjj         | `kubectl create job --from=cronjob/`                 |
+| kej          | `kubectl edit job`                                   |
+| kdj          | `kubectl describe job`                               |
+| kdelj        | `kubectl delete job`                                 |
+
 ### Events management.
 
 | Abbreviation | Command                                              |
